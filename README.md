@@ -10,3 +10,8 @@ upload_max_filesize=9000M
 max_file_uploads=800
 
 post_max_size = 9000M
+
+INSTRUCCIONES:
+
+1.- Hay que agregar un nombre de carpeta para crearla y guardar las imagenes
+2.- Subir todas las imagenes que vayamos a ordenar.
