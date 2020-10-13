@@ -1,0 +1,130 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+    position: relative;
+    top: -100px;
+    left: -100px;
+    width: 60%;
+    opacity: 0.2;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    width: 400px;
+    height: 500px;
+    display: block;
+}
+
+.input-text{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    -webkit-box-shadow: -4px 4px 16px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -4px 4px 16px -2px rgba(0,0,0,0.2);
+    box-shadow: -4px 4px 16px -2px rgba(0,0,0,0.2);
+}
+
+.input-text:focus{
+    outline: none !important;
+    border:1px solid rgb(0, 132, 255);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=file]{
+    opacity:0;
+    -moz-opacity: 0;
+    filter: alpha(Opacity=0);
+ -khtml-opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    width: 100%;
+}
+
+input[type=file]{
+    cursor: pointer;
+}
+
+.content-input{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-file{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:1px solid rgb(228, 228, 228);
+    box-shadow: 0 0 10px #c5c5c5;
+    -webkit-box-shadow: -4px 4px 16px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -4px 4px 16px -2px rgba(0,0,0,0.2);
+    box-shadow: -4px 4px 16px -2px rgba(0,0,0,0.2);
+
+}
+
+.input-file span{
+    position: relative;
+    top: 10px;
+
+}
+
+.input-file input{
+    height: 100%;
+}
+
+.input-file:hover{
+    cursor: pointer;
+    border: 2px solid rgb(0, 132, 255);
+    -webkit-box-shadow: -2px 4px 16px -2px rgba(9, 87, 255, 0.555);
+    -moz-box-shadow: -2px 4px 16px -2px rgba(9, 87, 255, 0.555);
+    box-shadow: -2px 4px 16px -2px rgba(9, 87, 255, 0.555);
+}
+
+.btn-submit{
+    border: 1px solid #c5c5c5;
+    background-color: #1B1B1B;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-box-shadow: -2px 4px 16px -2px rgba(105, 105, 105, 0.144);
+    -moz-box-shadow: -2px 4px 16px -2px rgba(54, 54, 54, 0.116);
+    box-shadow: -2px 4px 16px -2px rgba(10, 10, 10, 0.164);
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+}
+
