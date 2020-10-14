@@ -17,7 +17,7 @@
                 <input type="text" class="input-text" name="folder" required>
                 <div class="content-input">
                 <label class="input-file">
-                <span style="display: flex; justify-content: center;align-items: center;">Upload <img width="30px" src="upload.png" alt=""></span><input type="file" name="fileUpload[]" />
+                <span style="display: flex; justify-content: center;align-items: center;">Upload <img width="30px" src="upload.png" alt=""></span><input type="file" name="fileUpload[]" multiple/>
                 </label>
                 </div>
                 <div class="content-input">
